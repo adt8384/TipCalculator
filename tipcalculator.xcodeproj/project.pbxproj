@@ -14,6 +14,7 @@
 		4989D1461F3F63400018B5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4989D1441F3F63400018B5FA /* LaunchScreen.storyboard */; };
 		4989D1511F3F63400018B5FA /* tipcalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989D1501F3F63400018B5FA /* tipcalculatorTests.swift */; };
 		4989D15C1F3F63400018B5FA /* tipcalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989D15B1F3F63400018B5FA /* tipcalculatorUITests.swift */; };
+		4989D16A1F40E3190018B5FA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989D1691F40E3180018B5FA /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4989D1571F3F63400018B5FA /* tipcalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4989D15B1F3F63400018B5FA /* tipcalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipcalculatorUITests.swift; sourceTree = "<group>"; };
 		4989D15D1F3F63400018B5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4989D1691F40E3180018B5FA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4989D13B1F3F63400018B5FA /* AppDelegate.swift */,
 				4989D13D1F3F63400018B5FA /* ViewController.swift */,
 				4989D13F1F3F63400018B5FA /* Main.storyboard */,
+				4989D1691F40E3180018B5FA /* SettingsViewController.swift */,
 				4989D1421F3F63400018B5FA /* Assets.xcassets */,
 				4989D1441F3F63400018B5FA /* LaunchScreen.storyboard */,
 				4989D1471F3F63400018B5FA /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				4989D13E1F3F63400018B5FA /* ViewController.swift in Sources */,
 				4989D13C1F3F63400018B5FA /* AppDelegate.swift in Sources */,
+				4989D16A1F40E3190018B5FA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tipcalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tipcalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
